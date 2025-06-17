@@ -6,6 +6,6 @@ app = FastAPI()
 @app.get('/health')
 async def health():
     return {
-        'status': 'healthy',
+        'status': 'healthy and running',
         'timestamp': datetime.now().isoformat()
     }
